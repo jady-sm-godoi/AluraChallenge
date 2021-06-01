@@ -1,0 +1,154 @@
+.templates{
+    grid-area: code;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.desktop-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 24px; */
+    margin-bottom: 24px;
+
+    width: 600px;
+    height: 464px;
+
+    background: rgba(0, 0, 0, 0.16);
+    border-radius: 8px;
+
+}
+
+.card-code-editor{
+    width: 600px;
+    height: 288px;
+
+    background: #9AFF6B;
+    border-radius: 8px;
+}
+
+.code-editor{ 
+    padding: 12px;
+
+    width: 520px;
+    height: 210px;
+
+    margin: 28px;
+
+    background: #141414;
+
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.24);
+    border-radius: 8px;
+}
+
+#code-txt{
+
+    width: 520px;
+    height: 180px;
+
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+
+    /* Neutral/$white */
+
+    color: #FFFFFF;
+    background-color: #141414;
+    border: none;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 12px 0px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px;
+
+    width: 520px;
+    height: 112px;
+
+}
+
+.card-content h2{
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 31px;
+
+    color: #FFFFFF;
+
+    margin: 8px 0px;
+}
+
+.card-content p{
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin: 8px 0px;
+}
+
+.card-actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 24px 24px;
+    width: 555px;
+    height: 64px;
+    margin: 0px 0px;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+}
+
+.actions img, .actions span{
+    margin-right: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author img, .author span{
+    margin-right: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,33 @@
+ 
+  .buttons {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  
+  .close-btn {
+    background: #FF5D5B;
+    border: none
+  }
+  
+  .min-btn {
+    background: #FFBB39;
+    border: none
+  }
+  
+  .max-btn {
+    background: #00CD4E;
+    border: none
+  }

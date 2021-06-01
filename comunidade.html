@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles-index/cabecalho.css" />
+    <link rel="stylesheet" href="styles-index/nav.css" />
+    <link rel="stylesheet" href="styles-index/controls.css" />
+    <link rel="stylesheet" href="styles-comunidade/templates.css" />
+    <link rel="stylesheet" href="styles-comunidade/mac-buttons.css" />
+
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>AluraDev</title>
+  </head>
+  <body>
+    <header>
+      <img src="images/Logo.png" alt="Logo Alura Dev" />
+      <input type="text" placeholder="Busque por algo" />
+      <div class="login">
+        <img src="images/Photo.png" alt="User Avatar" />
+        <p>Harry</p>
+      </div>
+      <img src="images/Vector-lupa.png" alt="lupa" class="lupa" />
+      <img src="images/Vector.png" alt="menu-drop" class="menu-drop" />
+    </header>
+
+    <nav>
+      <ul>
+        <p class="menu">menu</p>
+        <li class="menu-editor">
+          <a href="#" class="editor-link"
+            ><img
+              src="images/Icon-code.png"
+              alt="editor-icon"
+              class="code-image"
+            />
+            <span class="editor-txt">Editor de código</span>
+          </a>
+        </li>
+        <li class="menu-comunidade">
+          <a href="#" class="comunidade-link"
+            ><img
+              src="images/Icon.png"
+              alt="comunidade-icon"
+              class="comunidade-image"
+            />
+            <span class="comunidade-txt">Comunidade</span></a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <section class="templates">
+      <div class="desktop-card">
+        <div class="card-code-editor">
+          <div class="code-editor">
+            <div class="code-area">
+              <div class="buttons">
+                <button class="btn close-btn"></button>
+                <button class="btn min-btn"></button>
+                <button class="btn max-btn"></button>
+              </div>
+              <textarea name="code-txt" id="code-txt" cols="30" rows="10">
+                        const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+        
+        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+        
+        const unfold = (f, seed) => {
+          const go = (f, seed, acc) => {
+            const res = f(seed)
+            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+          }
+          return go(f, seed, [])
+        }
+                  </textarea
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card-content">
+          <h2>Título do projeto</h2>
+          <p>Essa é a descrição do meu projeto</p>
+        </div>
+        <div class="card-actions">
+          <div class="actions">
+            <img src="./images/bla.png" alt="" />
+            <span>9</span>
+            <img src="./images/heart.png" alt="" />
+            <span>9</span>
+          </div>
+          <div class="author">
+            <img src="images/Photo.png" alt="" />
+            <span>@Harry</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-card">
+        <div class="card-code-editor">
+          <div class="code-editor">
+            <div class="code-area">
+              <div class="buttons">
+                <button class="btn close-btn"></button>
+                <button class="btn min-btn"></button>
+                <button class="btn max-btn"></button>
+              </div>
+              <textarea name="code-txt" id="code-txt" cols="30" rows="10">
+                        const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+        
+        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+        
+        const unfold = (f, seed) => {
+          const go = (f, seed, acc) => {
+            const res = f(seed)
+            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+          }
+          return go(f, seed, [])
+        }
+                  </textarea
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card-content">
+          <h2>Título do projeto</h2>
+          <p>Essa é a descrição do meu projeto</p>
+        </div>
+        <div class="card-actions">
+          <div class="actions">
+            <img src="./images/bla.png" alt="" />
+            <span>9</span>
+            <img src="./images/heart.png" alt="" />
+            <span>9</span>
+          </div>
+          <div class="author">
+            <img src="images/Photo.png" alt="" />
+            <span>@Harry</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-card">
+        <div class="card-code-editor">
+          <div class="code-editor">
+            <div class="code-area">
+              <div class="buttons">
+                <button class="btn close-btn"></button>
+                <button class="btn min-btn"></button>
+                <button class="btn max-btn"></button>
+              </div>
+              <textarea name="code-txt" id="code-txt" cols="30" rows="10">
+                        const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+        
+        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+        
+        const unfold = (f, seed) => {
+          const go = (f, seed, acc) => {
+            const res = f(seed)
+            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+          }
+          return go(f, seed, [])
+        }
+                  </textarea
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card-content">
+          <h2>Título do projeto</h2>
+          <p>Essa é a descrição do meu projeto</p>
+        </div>
+        <div class="card-actions">
+          <div class="actions">
+            <img src="./images/bla.png" alt="" />
+            <span>9</span>
+            <img src="./images/heart.png" alt="" />
+            <span>9</span>
+          </div>
+          <div class="author">
+            <img src="images/Photo.png" alt="" />
+            <span>@Harry</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="desktop-card">
+        <div class="card-code-editor">
+          <div class="code-editor">
+            <div class="code-area">
+              <div class="buttons">
+                <button class="btn close-btn"></button>
+                <button class="btn min-btn"></button>
+                <button class="btn max-btn"></button>
+              </div>
+              <textarea name="code-txt" id="code-txt" cols="30" rows="10">
+                        const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+        
+        const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+        
+        const unfold = (f, seed) => {
+          const go = (f, seed, acc) => {
+            const res = f(seed)
+            return res ? go(f, res[1], acc.concat([res[0]])) : acc
+          }
+          return go(f, seed, [])
+        }
+                  </textarea
+              >
+            </div>
+          </div>
+        </div>
+        <div class="card-content">
+          <h2>Título do projeto</h2>
+          <p>Essa é a descrição do meu projeto</p>
+        </div>
+        <div class="card-actions">
+          <div class="actions">
+            <img src="./images/bla.png" alt="" />
+            <span>9</span>
+            <img src="./images/heart.png" alt="" />
+            <span>9</span>
+          </div>
+          <div class="author">
+            <img src="images/Photo.png" alt="" />
+            <span>@Harry</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
